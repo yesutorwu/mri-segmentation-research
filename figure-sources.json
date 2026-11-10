@@ -1,0 +1,92 @@
+[
+  {
+    "file": "assets/images/adult_t2_labels.png",
+    "original_figure": "cover_fresh_T2_labels.png",
+    "sha256": "618b7b357863918fe731b248793f16da11520cdf93af6cb91a60b6c6a9827730",
+    "description": "Fresh final JLF+CL label overlays on actual subject T2. Same subject full grid. Bilateral horizontal crop; zero is transparent.",
+    "slice_index_zero_based": 21,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  },
+  {
+    "file": "assets/images/online_vs_original_local.png",
+    "original_figure": "final_focus_original_online_diff.png",
+    "sha256": "ebc8e0cf119dcaf2f383fffaee1c0861094805132ce410d868c71c00cb998592",
+    "description": "Red marks any differing label ID, including foreground-to-foreground disagreements, original versus online.",
+    "slice_index_zero_based": 33,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  },
+  {
+    "file": "assets/images/stage4_inputs.png",
+    "original_figure": "helper_input_target_rough.png",
+    "sha256": "8b6aca2712ba345c99323dd7a23901314edbf46e0cd057137993eb929d5774b3",
+    "description": "Rough target labels over target left T2 chunk. Independent native grid and k from atlas illustration.",
+    "slice_index_zero_based": 27,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  },
+  {
+    "file": "assets/images/atlas_vote_difference.png",
+    "original_figure": "vote_diff.png",
+    "sha256": "3bc23f30b690fb0772c14e97cee09d212e57f07cafece2bfe9c269c111607653",
+    "description": "Any label disagreement between the two saved propagated votes on subject chunk.",
+    "slice_index_zero_based": 21,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  },
+  {
+    "file": "assets/images/exact_reproduction_result.png",
+    "original_figure": "final_focus_fresh_labels.png",
+    "sha256": "0b32308fa01520917e12291b980c016aad3090e0e48fdedc3c697cae57c4a39e",
+    "description": "Fresh end-to-end local combined JLF+CL overlay.",
+    "slice_index_zero_based": 33,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  },
+  {
+    "file": "assets/images/online_labels.png",
+    "original_figure": "final_focus_online_labels.png",
+    "sha256": "0b32308fa01520917e12291b980c016aad3090e0e48fdedc3c697cae57c4a39e",
+    "description": "Ticket 5215 online JLF+CL overlay.",
+    "slice_index_zero_based": 33,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  },
+  {
+    "file": "assets/images/original_labels.png",
+    "original_figure": "final_focus_original_labels.png",
+    "sha256": "6439e661453e298f616809deb46353ab1a096fea010a1a882ca24f098dfec6b9",
+    "description": "Original local combined JLF+CL overlay.",
+    "slice_index_zero_based": 33,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  },
+  {
+    "file": "assets/images/atlas_input.png",
+    "original_figure": "helper_input_atlas_train000.png",
+    "sha256": "53e5b27477b8614fabc4b03389f95b5a316408cdee0c88eb1f78504958fbe87d",
+    "description": "train000 left labels over its own native T2 chunk; display is independent and is not the same physical slice or world orientation as the target input.",
+    "slice_index_zero_based": 24,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  },
+  {
+    "file": "assets/images/original_vote.png",
+    "original_figure": "vote_original.png",
+    "sha256": "ffcebace00b42f2009d6bf7f82bd6f96463a05a3e7298dde5baa0096c1319d86",
+    "description": "Original propagated atlas vote on subject left native chunk.",
+    "slice_index_zero_based": 21,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  },
+  {
+    "file": "assets/images/fresh_vote.png",
+    "original_figure": "vote_fresh.png",
+    "sha256": "0244a3f675592b01515bc60089ba548ef22724913f36ba3e087ffa777750d00b",
+    "description": "Fresh propagated vote on same subject native chunk.",
+    "slice_index_zero_based": 21,
+    "source_case": "Public adult ds005115_sub01_ses01 / Princeton atlas train000 where indicated",
+    "display": "Display crop from saved arrays. No new MRI processing for this website. See caption for the comparison and scope."
+  }
+]
