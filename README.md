@@ -1,5 +1,11 @@
 # MRI Segmentation Research
 
+Public website: https://yesutorwu.github.io/mri-segmentation-research/
+
+Repository: https://github.com/yesutorwu/mri-segmentation-research
+
+GitHub Pages is configured to deploy `main` from the repository root.
+
 A static academic research site for Yesutorwu Koku-Besa Dzidzornu, UMass Amherst Intelligent MRI Lab. Adult Princeton computational reproducibility is complete for one public subject. TorchIO motion simulation and image-quality evaluation are presented as planned/current work.
 
 ## Preview locally
@@ -79,7 +85,7 @@ git remote add origin YOUR_NEW_WEBSITE_REPOSITORY_GIT_URL
 git push -u origin main
 ```
 
-Replace the remote placeholder with the actual new repository address. These commands have not been run by the site builder.
+Replace the remote placeholder with the actual new repository address. Initial publication used the signed-in GitHub browser and connected GitHub tools; command-line push requires separate Git authentication.
 
 Official instructions:
 - https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
@@ -111,7 +117,7 @@ The site describes the maintainer information in the owner's approved public nar
 
 The banner already exists at `assets/images/linkedin-preview.png`. It uses only the research title and researcher name. Replace it with another 1200 × 630 PNG if needed.
 
-After the real Pages URL is known, edit the HTML head:
+The initial publication already sets the absolute `og:image`, `og:url` and canonical URL for the Pages address above. If the website address changes, update the HTML head:
 
 - Change `og:image` from its local relative path to the **absolute HTTPS URL** of the banner.
 - Add `<meta property="og:url" content="YOUR_ACTUAL_PAGES_URL">`.
